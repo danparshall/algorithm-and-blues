@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Data files (large generated outputs)
+*.midi
+*.mid
+filtered_chains_*.json
+scored_chains_*.json
+selected_chains_*.json
+top_chains_*.json
+
+# Keep small data files
+!motif_data.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
